@@ -1,0 +1,19 @@
+# Staging Configuration
+server:
+  host: "0.0.0.0"
+  port: 8080
+  debug: true
+
+database:
+  host: "staging-db.example.com"
+  port: 5432
+  name: "myapp_staging"
+  ssl: false
+
+logging:
+  level: "DEBUG"
+  format: "text"
+
+features:
+  new_feature: true
+  experimental_feature: true
